@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio Dashboard</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>🎓 Portfolio</h2>
+        <ul>
+            <li onclick="showSection('dashboard')">Dashboard</li>
+            <li onclick="showSection('profile')">Profile</li>
+            <li onclick="showSection('projects')">Projects</li>
+            <li onclick="showSection('skills')">Skills</li>
+            <li onclick="showSection('contact')">Contact</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+
+        <!-- Dashboard -->
+        <div id="dashboard" class="section active">
+            <h1>Dashboard</h1>
+            <div class="cards">
+                <div class="card">
+                    <h3>Projects</h3>
+                    <p>5</p>
+                </div>
+                <div class="card">
+                    <h3>Skills</h3>
+                    <p>5</p>
+                </div>
+                <div class="card">
+                    <h3>CGPA</h3>
+                    <p>9.0</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile -->
+        <div id="profile" class="section">
+            <h1>Profile</h1>
+            <p><b>Name:</b> Sai Harshini</p>
+            <p><b>College:</b> Srinivasa Ramanujan Institute of Technology</p>
+            <p><b>Branch:</b> CSM</p>
+
+
+
+
+            <!-- Social Media -->
+            <div class="social">
+                <h3>Connect with Me</h3>
+                <a href="https://github.com/saiharshinilingampalle-cmyk" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+
+                </a>
+                <a href="https://www.linkedin.com/in/sai-harshini-lingampalle-4656232bb" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+                <a href="mailto:saiharshinilingampalle@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+
+
+            <!-- Resume Button -->
+            <div class="resume-btn">
+                <a href="DOC-20260319-WA0003..pdf" download>
+                    <button>⬇ Download Resume</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div id="projects" class="section">
+            <h1>Projects</h1>
+            <ul>
+                <li>AI Resume Screening System (NLP-Based)</li>
+                <li>Motion Detection  </li>
+                <li>Student Hub System</li>
+                <li>IPL Stats Dashboard</li>
+                <li>Portfolio Website</li>
+
+            </ul>
+        </div>
+
+        <!-- Skills -->
+        <div id="skills" class="section">
+            <h1>Skills</h1>
+
+            <div class="skill">
+                <p>HTML</p>
+                <div class="bar"><div style="width:90%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="bar"><div style="width:80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="bar"><div style="width:70%"></div></div>
+            </div>
+             <div class="skill">
+                <p>Java </p>
+                <div class="bar"><div style="width:70%"></div></div>
+            </div>
+             <div class="skill">
+                <p>C</p>
+                <div class="bar"><div style="width:70%"></div></div>
+            </div>
+        </div>
+
+      
+        <!-- Contact -->
+        <div id="contact" class="section">
+            <h1>Contact</h1>
+            <p>Email: saiharshinilingampalle@gmail.com</p>
+            
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
